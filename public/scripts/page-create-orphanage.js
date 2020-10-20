@@ -114,6 +114,7 @@ function validate(event) {
   } 
 }
 
+// format phone number input
 /*function phoneMask() { 
   var num = $(this).val().replace(/\D/g,''); 
   $(this).val('(' + num.substring(0,2) + ')' + num.substring(2,7) + '-' + num.substring(7,11)); 
